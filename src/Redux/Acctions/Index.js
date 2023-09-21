@@ -24,7 +24,8 @@ export const getDogs = () => {
         payload: data,
       });
     } catch (error) {
-      window.alert(error.response.data.error);
+      console.log(error);
+      window.alert(error);
     }
   };
 };
@@ -38,7 +39,9 @@ export const getTemperaments = () => {
         payload: data,
       });
     } catch (error) {
-      window.alert(error.response.data.error);
+      console.log(error);
+
+      window.alert(error);
     }
   };
 };
@@ -52,7 +55,9 @@ export const seachDogs = (name) => {
         payload: data,
       });
     } catch (error) {
-      window.alert(error.response.data.error);
+      console.log(error);
+
+      window.alert(error);
     }
   };
 };
@@ -64,7 +69,7 @@ export const postDog = (input) => {
       alert("Perro creado correctamente");
     } catch (error) {
       console.log(error);
-      alert(error.response.data);
+      alert(error);
     }
   };
 };
