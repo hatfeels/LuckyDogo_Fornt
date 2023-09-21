@@ -9,14 +9,16 @@ export const FILTER_DOGS = "FILTER_DOGS"
 export const SORT_DOGS = "SORT_DOGS"
 export const PAGINATE = "PAGINATE"
 
-const URL = "http://localhost:3001/";
+// const URL = "http://localhost:3001";
+const URL = "luckydogoback-production.up.railway.app";
+
 
 //Acctions creators
 
 export const getDogs = () => {
   return async (dispatch) => {
     try {
-      const { data } = await axios.get(URL + "dogs");
+      const { data } = await axios.get(URL + "/dogs");
       dispatch({
         type: GET_ALL_DOGS,
         payload: data,
@@ -30,7 +32,7 @@ export const getDogs = () => {
 export const getTemperaments = () => {
   return async (dispatch) => {
     try {
-      const { data } = await axios.get(URL + "temperaments");
+      const { data } = await axios.get(URL + "/temperaments");
       dispatch({
         type: GET_ALL_TEMPERAMENTS,
         payload: data,
@@ -44,7 +46,7 @@ export const getTemperaments = () => {
 export const seachDogs = (name) => {
   return async (dispatch) => {
     try {
-      const { data } = await axios.get(`${URL}dogs/name?name=${name}`);
+      const { data } = await axios.get(`${URL}/dogs/name?name=${name}`);
       dispatch({
         type: GET_SEARCHED_DOGS,
         payload: data,
@@ -58,7 +60,7 @@ export const seachDogs = (name) => {
 export const postDog = (input) => {
   return async () => {
     try {
-      await axios.post(URL + "dogs", input);
+      await axios.post(URL + "/dogs", input);
       alert("Perro creado correctamente");
     } catch (error) {
       console.log(error);
