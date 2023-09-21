@@ -1,0 +1,27 @@
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196f3;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+.cont button{
+    border: 1px;
+    border-radius: 5px;
+    height: 2rem;
+    width: 2rem;
+    margin: 5px;
+    text-align: justify;
+}
+
+button:hover {
+    background-color: blueviolet;
+    box-shadow: gray (0, 0, 0, 10px);
+}
+
+.current {
+    background-color: blueviolet;
+    box-shadow: gray (0, 0, 0, 10px);
+}

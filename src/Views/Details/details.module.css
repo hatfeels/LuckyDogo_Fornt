@@ -1,0 +1,82 @@
+.cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url(https://img.freepik.com/vector-premium/patron-perro-costuras-huellas-patas-corazones-textura-pie-gato-patron-huella-perro_192280-743.jpg);
+  font-family: cursive;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #efb325d2;
+  border-radius: 5px;
+  width: fit-content;
+  color: #000000;
+  min-height: 100vh;
+  padding: 20px;
+  margin: 1rem;
+}
+
+.image {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image img {
+  max-width: 50rem;
+  height: auto;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+.cont p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.cont span {
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.cont a {
+  margin-top: 20px;
+  color: #ff4081;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.cont a:hover {
+  color: #ff5722;
+}

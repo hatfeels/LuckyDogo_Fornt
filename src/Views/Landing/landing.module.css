@@ -1,0 +1,24 @@
+.cont {
+    background-image: url(https://img.freepik.com/vector-premium/patron-perro-costuras-huellas-patas-corazones-textura-pie-gato-patron-huella-perro_192280-743.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wellcome{
+    background-color: #2196F3;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.wellcome a {
+    text-decoration: none;
+    color: white;
+}

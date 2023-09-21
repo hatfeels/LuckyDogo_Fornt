@@ -1,0 +1,45 @@
+.navbar {
+  background-color: #2195f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: cursive;
+
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar h1 {
+  font-size: 24px;
+  color: #fff;
+  margin: 0;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+
+}
+
+.buttons:hover {
+  color: #efb225;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search .cont{
+  width: 13rem;
+}
+

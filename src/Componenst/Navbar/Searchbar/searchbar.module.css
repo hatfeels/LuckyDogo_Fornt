@@ -1,0 +1,13 @@
+.cont {
+    display: flex;
+}
+
+.cont img {
+    height: 1.5rem;
+    width: 1.5rem;
+    padding-left: 1rem;
+}
+
+.cont input{
+    border-radius: 5px;
+}

@@ -1,0 +1,25 @@
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2196f3;
+    width: 100vw;
+    color: white;
+    padding-bottom: 10px;
+    font-family: cursive;
+}
+
+label, select, button{
+    margin-left: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    background-color: white;
+}
+
+button:hover {
+    background-color: blueviolet;
+    box-shadow: gray (0, 0, 0, 10px);
+}

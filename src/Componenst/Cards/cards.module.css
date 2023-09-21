@@ -1,0 +1,12 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background: transparent;
+  font-family: cursive;
+}
+
+.card {
+  flex: 0 0 calc(20% - 20px);
+  margin: 10px;
+}
