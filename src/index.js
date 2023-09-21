@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 import {store} from "./Redux/Store/Index.js"
 
-axios.defaults.baseURL = "http://localhost:3001";
+// axios.defaults.baseURL = "localhost:3001";
+axios.defaults.baseURL = "http://luckydogoback-production.up.railway.app";
 
 ReactDOM.render(
   <Provider store={store}>
