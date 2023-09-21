@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "SET NODE_OPTIONS=--openssl-legacy-provider build",
+    "build": "SET NODE_OPTIONS=--omit=dev && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
